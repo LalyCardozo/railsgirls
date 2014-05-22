@@ -1,0 +1,40 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+body.mybody {
+	padding-top: 100px;
+	background-color: #DEB887;
+}
+footer { 
+	margin-top: 100px; 
+}
+table, td, th { 
+	vertical-align: middle; border: solid; border-color: #FAF0E6; 
+}
+th { 
+	border-bottom: 1px solid #DDD; 
+}
+h1 {
+	color: #FAF0E6;
+
+}
+h3 {
+	color: #FAF0E6;
+}
+
+h2.railslogo
+{
+position:fixed;
+right:0;
+top:0;
+}
